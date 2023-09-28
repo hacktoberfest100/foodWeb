@@ -62,6 +62,8 @@ const connectSecWithNavLink = () => {
 
     if (linkAttribute === `#${current}`) {
       link.classList.add("active");
+
+      console.log(linkAttribute);
     }
   });
 };
